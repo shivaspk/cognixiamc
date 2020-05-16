@@ -1,0 +1,21 @@
+
+
+msg: Hi Spring Boot MC!
+name: Donald Trump
+
+---
+
+spring:
+  profiles: dev
+
+msg: Hi Spring Boot MC DEV!
+name: Donald Trump
+
+---
+
+spring:
+  profiles: prod
+
+msg: Hi Spring Boot MC PROD!
+name: Donald Trump
+  
